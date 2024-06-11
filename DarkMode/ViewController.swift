@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       overrideUserInterfaceStyle = .light // view controller a ozel
-        //kullanicinin telefonunda su an hangi mode u kullandigi onemli olmadan light a aliyor
+       //overrideUserInterfaceStyle = .light
+        // view controller a ozel, kullanicinin telefonunda su an hangi mode u kullandigi onemli olmadan light a aliyor
         //eger butun uygulamaya ozel olsun istersek, info plist e gidip User Interface Style dan belirleyebiliriz
         
 
